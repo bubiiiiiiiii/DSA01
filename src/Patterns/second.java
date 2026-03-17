@@ -2,29 +2,28 @@ package Patterns;
 
 public class second {
     public static void main(String[] args) {
-        /* *
-           **
-           ***
-           *****
-           ***
-           **
-           *
+        /* 1
+           0 1
+           1 0 1
+           0 1 0 1
+           1 0 1 0 1
          */
         int i;
         int j;
-        int n =7;
+        int n =5;
+        int start = 1;
         for(i=0;i<n;i++) {
-            for(j=0;j<i;j++){
-                System.out.print("*");
+            if(i%2==0){
+               start = 1;
+            }else{
+                start = 0;
             }
-            System.out.println();
-        }
-        for(i=0;i<n;i++){
-            for(j=i;j<n;j++){
-                System.out.print("*");
+            for(j=0;j<=i;j++){
+                System.out.print(start);
+                start = 1 - start;  // this line is very important it flips the digit if 0 then 1 if 1 then 0
             }
-            System.out.println();
+            System.out.println();}
         }
-        }
+
     }
 
