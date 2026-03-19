@@ -11,9 +11,10 @@ public class second {
         char j;
         int n=5;
 
-       for(i=n;i>0;i--){
-           for(j='A';j<'A'+ i;j++){
-               System.out.print(j);
+       for(i=1;i<n;i++){
+           char ch = (char)('A'+i-1);
+           for(j=1;j<=i;j++){
+               System.out.print(ch);
            }
            System.out.println();
        }
