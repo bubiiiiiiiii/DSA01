@@ -11,7 +11,7 @@ public class second {
         char j;
         int n=5;
 
-       for(i=1;i<n;i++){
+       for(i=n;i>0;i--){
            for(j='A';j<'A'+ i;j++){
                System.out.print(j);
            }
