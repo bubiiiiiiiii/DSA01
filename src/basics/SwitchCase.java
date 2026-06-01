@@ -21,16 +21,15 @@ public class SwitchCase {
         System.out.println("enter fruit:");
         String fruit = sc.nextLine();
 
-        //this is the old boring wayyyyy
-        switch(fruit){
-            case "mango":
-                System.out.println("king of fruits");
-                break;
-            case "orange":
-                System.out.println("mehh");
-                break;
-            default:
-                System.out.println("not a fruit");
+        //now for a new enhanced way we can just go over on switch and do "alt + enter"
+        switch (fruit) {
+            case "mango" -> System.out.println("king of fruits");
+            case "orange" -> System.out.println("mehh");
+            default -> System.out.println("not a fruit");
+            /* what changed??
+            1. no extra curly braces.
+            2. don't need break statement.
+             */
         }
     }
 }
