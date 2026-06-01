@@ -17,22 +17,36 @@ public class SwitchCase {
         2. if break is not used it will continue to the next case
          */
 
+        // nested switch case
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter fruit:");
-        String fruit = sc.nextLine();
+        int empId = sc.nextInt();
+        String department = sc.next();
 
-        //now for a new enhanced way we can just go over on switch and do "alt + enter"
-        switch (fruit) {
-            case "mango" -> System.out.println("king of fruits");
-            case "orange" -> System.out.println("mehh");
-            default -> System.out.println("not a fruit");
-            /* what changed??
-            1. no extra curly braces.
-            2. don't need break statement.
-             */
+        switch(empId){
+            case 1:
+                System.out.println("bubi");
+                break;
+            case 2:
+                System.out.println("bubii");
+                break;
+            case 3:
+                switch(department){
+                    case "it":
+                        System.out.println("in it department");
+                        break;
+                        case "tech":
+                            System.out.println("in tech department");
+                    default:
+                        System.out.println("beeeeeeeeep!!");
+                        break;
+                    }
+            default:
+                System.out.println("wrong");
+                }
         }
+
     }
-}
+
 
 
 
