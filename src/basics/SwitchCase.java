@@ -21,6 +21,7 @@ public class SwitchCase {
         System.out.println("enter fruit:");
         String fruit = sc.nextLine();
 
+        //this is the old boring wayyyyy
         switch(fruit){
             case "mango":
                 System.out.println("king of fruits");
