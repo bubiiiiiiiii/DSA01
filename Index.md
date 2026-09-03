@@ -4,6 +4,7 @@ All solved problems organized by pattern/category.
 
 
 ## Uncategorized
+- [Median of Two Sorted Arrays](./LeetCode/Hard/Median%20of%20Two%20Sorted%20Arrays) - *Hard*
 - [Buddy Strings](./LeetCode/Easy/Buddy%20Strings) - *Easy*
 - [Long Pressed Name](./LeetCode/Easy/Long%20Pressed%20Name) - *Easy*
 - [Detect Capital](./LeetCode/Easy/Detect%20Capital) - *Easy*
