@@ -4,6 +4,7 @@ All solved problems organized by pattern/category.
 
 
 ## Uncategorized
+- [Buddy Strings](./LeetCode/Easy/Buddy%20Strings) - *Easy*
 - [Long Pressed Name](./LeetCode/Easy/Long%20Pressed%20Name) - *Easy*
 - [Detect Capital](./LeetCode/Easy/Detect%20Capital) - *Easy*
 - [Valid Anagram](./LeetCode/Easy/Valid%20Anagram) - *Easy*
