@@ -9,7 +9,7 @@
 | **Tags** | Array, Sorting |
 | **Link** | [View Problem](https://leetcode.com/problems/third-maximum-number/) |
 | **Runtime** | 3 ms |
-| **Memory** | 45 MB |
+| **Memory** | 45.1 MB |
 
 ## Problem Description
 
